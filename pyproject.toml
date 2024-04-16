@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ezfinance"
+version = "0.1.0"
+description = "Financial project using FastAPI"
+authors = ["Lucas Cunha <cunha.ladm@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
